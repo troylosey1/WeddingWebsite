@@ -8,11 +8,11 @@ body {
 
 .hero {
     text-align: center;
-    height: 2400px;                 /* ← controls banner height */
+    height: 800px;                 /* ← controls banner height */
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("/images/family_photo.jpg") center/cover no-repeat;
+    background: url("/images/family_photo.jpg") center/contain no-repeat;
     color: black;
 }
 
