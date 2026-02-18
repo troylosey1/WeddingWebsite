@@ -9,7 +9,7 @@ body {
 .hero {
     text-align: center;
     padding: 120px 20px;
-    background: url("images/family_photo.jpg") center/cover no-repeat;
+    background: url("/images/family_photo.jpg") center/cover no-repeat;
     color: black;
 }
 
