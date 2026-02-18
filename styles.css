@@ -10,7 +10,7 @@ body {
     text-align: center;
     padding: 120px 20px;
     background: url("images/hero.jpg") center/cover no-repeat;
-    color: white;
+    color: black;
 }
 
 .hero h1 {
