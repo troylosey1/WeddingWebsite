@@ -8,22 +8,39 @@ body {
 
 .hero {
     text-align: center;
+    font-size: 30pt;
     height: 800px;                 /* ← controls banner height */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    padding-top: 0pt;
     align-items: center;
+
     background: url("/images/family_photo.jpg") center/contain no-repeat;
-    color: black;
 }
 
 .hero h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 3rem;
+    font-size: 50pt;
     margin-bottom: 10px;
+    text-align: center;
 }
 
+.hero h1, .hero p, .hero .date {
+    color: white;
+    text-shadow:
+       -1px -1px 0 black,
+        1px -1px 0 black,
+       -1px  1px 0 black,
+        1px  1px 0 black;
+    font-weight: bold;
+    text-align: center;
+}
+
+
 .date {
-    font-size: 1.2rem;
+    font-size: 30pt;
 }
 
 section {
